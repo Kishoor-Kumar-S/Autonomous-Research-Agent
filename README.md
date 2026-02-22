@@ -8,7 +8,7 @@ An advanced AI-powered research assistant that automates deep-web data collectio
 This agent acts as a digital researcher by leveraging **LangGraph** to orchestrate a team of specialized AI nodes. The system works in a stateful loop to plan, search, and synthesize information into a professional, downloadable Markdown report.
 
 ##  Technical Architecture
-The system uses a Directed Acyclic Graph (DAG) to manage the research state across three primary nodes:
+The system uses a **Directed Acyclic Graph (DAG)** to manage the research state across three primary nodes:
 
 1.  **The Planner (Gemini 2.5):** Analyzes the user's topic and decomposes it into high-intent search queries.
 2.  **The Researcher (Tavily AI):** Executes concurrent web searches using an AI-optimized search engine to retrieve vetted, noise-free data.
@@ -16,20 +16,20 @@ The system uses a Directed Acyclic Graph (DAG) to manage the research state acro
 
 
 
-## 🚀 Key Features
+##  Key Features
 * **Stateful Orchestration:** Built with **LangGraph** to ensure reliable data flow and error handling between agents.
 * **Production-Grade Search:** Integrated with **Tavily AI Search** for superior retrieval accuracy compared to standard web scrapers.
 * **Real-time Progress Tracking:** Streamlit-based UI featuring live status updates for each agent node.
 * **Exportable Intelligence:** One-click feature to download generated reports as `.md` files for immediate professional use.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **LLM:** Google Gemini 2.5 Flash
 * **Orchestration:** LangChain & LangGraph
 * **Web Search:** Tavily API (Optimized for AI Agents)
 * **Interface:** Streamlit
 * **Environment:** Python 3.10+
 
-## 📋 Setup & Installation
+##  Setup & Installation
 
 1. **Clone the Repository:**
    ```bash
